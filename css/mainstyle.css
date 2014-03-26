@@ -1,0 +1,114 @@
+/* main CSS for homepage, also public CSS*/
+a { 
+    color:#4CB4E8; 
+    transition: all 0.3s ease 0s; 
+}
+a:hover {
+    color:#D4EDF9; 
+    text-decoration: none; 
+}
+.backbtn{
+    position:absolute; 
+    left:10px; top:12px; 
+    border-top:3px solid #555; 
+    border-right:3px solid #555; 
+    width:11px; height:11px; 
+    -webkit-transform: rotate(225deg);
+}
+body {
+    margin:20px 20px 20px 20px; 
+    background:#2F2F2F; 
+}
+dl {
+    display: block; 
+    -webkit-margin-before: 1em; 
+    -webkit-margin-after: 1em; 
+    -webkit-margin-start: 0px; 
+    -webkit-margin-end: 0px;
+}
+.button_text {
+    font-family:Georgia, Times, TimesNR, 'New Century Schoolbook', 'New York', serif; 
+    font-size:100%; 
+    color:black;
+}
+
+.image_portrait {
+    opacity:0.4; /* gte IE9, F, C, O, S */ 
+    filter:alpha(opacity=40); /* lte IE8 */
+}
+.image_logo {
+    position:absolute; 
+    left:20px; 
+    opacity:0.6; /* gte IE9, F, C, O, S */ 
+    filter:alpha(opacity=60); /* lte IE8 */
+}
+img:hover {
+    opacity:1.0; /* gte IE9, F, C, O, S */ 
+    filter:alpha(opacity=100); /* lte IE8 */
+}
+
+h1 { 
+    font-size:30pt; 
+    text-align:center; 
+    color:#ffffff; 
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.3em #00a6ac, 0 0 0.5em #00f; 
+}
+
+h2 { 
+    font-size:25pt; 
+    text-align:center; 
+    color:#ffffff; 
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.3em #00a6ac, 0 0 0.5em #00f; 
+}
+
+.main_text {
+    font-family:courier, Times, TimesNR, 'New Century Schoolbook', Georgia, 'New York', serif; 
+    font-size:100%; 
+    color:#d3d7d4; 
+    text-shadow: 0 0 0.1em #d3d7d4;
+    margin-top:70px;
+}
+
+.subNav dl {
+    font-size: inherit; 
+    float: left; 
+    width: 162px; 
+    padding: 0 15px 10px 0; 
+    margin: 0 0 10px 0;
+}
+.subNav .grouped {
+    overflow:hidden; 
+    border-bottom:1px solid #ebebe6; 
+    float:left; 
+    margin:20px 10px 60px 10px;
+}
+.subNav {
+    position: relative;
+    width: 100px; 
+    height:150px;
+    border: ipx solid grey;
+}
+.nav .subNav{
+    width: 168px;
+    background-image: none; 
+    min-height: 0; 
+    padding: 10px;
+    text-decoration:none;
+}
+.nav li{
+    float:left;
+    margin-right: 25px;
+    list-style:none;
+    position:relative;
+}
+.nav li ul{
+    position:absolute;
+}
+/* css for jQuery cycle plugin */
+.slideshow {margin: auto; width: 410px; height: 314px; border-radius:25px; float:right; }
+.slideshow img {padding: 12px; border: 1px solid #ccc; border-radius:25px; background-color: #eee; }
+
+
+
+
+
