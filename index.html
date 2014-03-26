@@ -1,0 +1,366 @@
+
+<!DOCTYPE HTML>
+<!--
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "
+http://www.w3.org/TR/html4/strict.dtd">
+-->
+
+<html lang="en">
+<head>
+    <title> Jason Hao's Homepage </title>
+    <meta name="Keywords" content="Jason, Hao, Jason Hao, NJIT, njit, electical engineering, computer science" />
+    <meta name="description" content="Jason Hao's Homepage" />
+    <meta name="revised" content="Jason, 12/30/2013" />
+    <!--
+    <meta http-equiv="refresh" content="5" />
+    -->
+    <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    -->
+    <link rel="stylesheet" type="text/css" href="./css/mainstyle.css" />
+    <!-- jquery cycle plugin is based on jquery 1.5, so we should import jquery 1.5 below -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <!-- include Cycle plugin -->
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+
+    <!--
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    -->
+
+    <!--
+    Which version of Javascript does your browser support
+    <script type="text/javascript">
+    var n = navigator;
+    var u = n.userAgent;
+    var apn = n.appName;
+    var v = n.appVersion;
+    var ie = v.indexOf('MSIE ')
+    if(ie > 0){
+    apv = parseInt(i = v.substring(ie + 5));
+    if(apv > 3) {
+    apv = parseFloat(i);
+    }
+    }else{
+    apv = parseFloat(v);
+    }
+    var isie = (apn == 'Microsoft Internet Explorer');
+    var ismac = (u.indexOf('Mac') >= 0);
+    var javascriptVersion = "1.0";
+    if(String && String.prototype){
+    javascriptVersion = '1.1';
+    if(javascriptVersion.match){
+    javascriptVersion = '1.2';
+    var tm = new Date;
+    if(tm.setUTCDate){
+    javascriptVersion = '1.3';
+    if(isie && ismac && apv >= 5) javascriptVersion = '1.4';
+    var pn = 0;
+    if(pn.toPrecision){
+    javascriptVersion = '1.5';
+    a = new Array;
+    if(a.forEach){
+    javascriptVersion = '1.6';
+    i = 0;
+    o = new Object;
+    tcf = new Function('o','var e,i=0;try{i=new Iterator(o)}catch(e){}return i');
+    i = tcf(o);
+    if(i && i.next) {
+    javascriptVersion = '1.7';
+    }
+    }
+    }
+    }
+    }
+    }
+    alert(javascriptVersion);
+    </script>
+    -->
+
+    <!--
+    <script>
+    function displayDate()
+    {
+    document.getElementById("demo").innerHTML=Date();
+    }
+    </script>
+
+    <script>
+    function mOver(obj)
+    {
+    obj.innerHTML="Thank You"
+    }
+    function mOut(obj)
+    {
+    obj.innerHTML="Mouse Over Me"
+    }
+    </script>
+    -->
+
+    
+<!-- Used for canvas in HTML
+     <script type="text/javascript">
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            var grd = ctx.createLinearGradient(0, 0, 1366, 0);
+            grd.addColorStop(0, "black");
+            grd.addColorStop(0.5, "red");
+            grd.addColorStop(1, "white");
+            ctx.fillStyle = grd;
+            ctx.fillRect(0, 0, 1366, 24);
+     </script>
+-->
+</head>
+<body>
+    <p>
+        <a href="http://www.njit.edu/" target="_blank"><acronym title="New Jersey Institute of Technology"> <img class="image_logo"                     src="./pictures/logo/njit-logo.jpeg" width="210" height="80" align="left"/> </acronym></a>
+        <h1>Jason Hao </h1>
+        <br/>
+        
+        <!--	<img src="./pictures/njit_logo_2.jpeg" width="120" height="120" align="right"/>  -->
+        <!--	<hr/>    -->
+
+        <!--
+        <form action="">
+        <select name="options">
+        <option value="downloads">Downloads</option>
+        <option value="pictures">Pictures</option>
+        <option value="projects" selected>Projects</option>
+        <option value="resume"><a href="resume.html">Resume</a></option>
+        </select>
+        </form>
+        -->
+
+        <!-- Below is the canvas line from black to red to white -->
+        <canvas id="myCanvas" width="1366" height="30">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+
+       
+    </p>
+
+    <div id="navIndustries">
+        <ul>
+            <li>
+                <a href="./EE/Projects.html">Projects</a>
+            </li>
+            <li>
+                Favorite web
+                <div class="subNav">
+                    <div class="inner" style="display: none;">
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <a href="http://www.google.com">Google</a>
+                            </dd>
+                            <dd>
+                                <a href="http://www.baidu.com">Baidu</a>
+                            </dd>
+                            <dd>
+                                <a href="http://www.ups.com">UPS</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </li>
+            <li>
+                Jason's downloads
+                <div>
+                    <div class="grouped">
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <a href="http://www.google.com">Google</a>
+                            </dd>
+                            <dd>
+                                <a href="http://www.baidu.com">Baidu</a>
+                            </dd>
+                            <dd>
+                                <a href="http://www.ups.com">UPS</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <a href="MyAmerica1.doc"><em>My America1</em></a>
+                            </dd>
+                            <dd>
+                                <a href="MyAmerica2.doc"><em>My America2</em></a>
+                            </dd>
+                            <dd>
+                                <a href="MyAmerica3.doc"><em>My America3</em></a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+        <!--
+        <p class="button_text">
+            <button type="button" onclick="alert('Welcome to my Homepage!')">
+                Click Me!
+            </button>
+        </p>
+        -->
+        <!-- One button to display date, time -->
+<!--
+        <p id="demo">
+            Please click on the button to display the date.
+            <button type="button" onclick="displayDate()">
+                Display Date
+            </button>
+            
+            <div onmouseover="mOver(this)" onmouseout="mOver(this)"
+            style="background-color:#fff008; width:80px; height:15px; padding:20px;">
+                Mouse Over Me
+            </div>
+            
+        </p>
+
+-->
+        <!--<a href="resume.html">Resume</a> in web-->
+        <!-- Below is the pic on the homepage -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.slideshow').cycle({
+                   fx : 'fade', // choose your transition type, ex: blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, shuffle, slideX, slideY, toss, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom
+                    speed: 2000,
+                    pause: 1
+                    
+                });
+            });
+        </script>
+
+        
+        <div class="slideshow">
+            <!--    <a href="./pictures/pictures.html" target="_blank">  -->
+            <!-- The class for img below was: class="image_portrait" -->
+            <img src="./pictures/NiagaraFalls.jpeg" width="384" height="288" alt="Jason's picture in NiagraFall, NY"/>
+            <img src="./pictures/Innsbruck.jpeg" width="384" height="288" alt="Jason's picture in Innsbruck, Austria"/>
+            <img src="./pictures/Innsbruck1.jpeg" width="384" height="288" alt="Jason's picture in Innsbruck, Austria"/>
+            <img src="./pictures/Innsbruck2.jpeg" width="384" height="288" alt="Jason's picture in Innsbruck, Austria"/>
+            <img src="./pictures/Munich.jpeg" width="384" height="288" alt="Jason's picture in New Swan Castle, Germany"/>
+            <img src="./pictures/Firenze.jpeg" width="384" height="288" alt="Jason's picture in Florence, Italy"/>
+            <!--    </a>  -->
+        </div>
+        <!--	<img src="Wallstreet.jpeg" width="384" height="288" align="right"/>  -->
+
+        <br/>
+        <!--	<div style="color:DimGray">  -->
+
+        <!-- Below is the personal introduction -->
+            <div>
+            <p class="main_text">
+        
+            I received my Master's Degree in
+            <a href="http://ece.njit.edu/">Department of Electrical & Computer Engineering</a> at <a href="http://www.njit.edu/" target="_blank"><acronym title="New Jersey Institute of Technology">NJIT</acronym></a>.
+            My major was Electrical Engineering (<b>EE</b>) and track was <b><acronym title="Very Large Scale Integration">VLSI</acronym></b>.
+            This track is mainly about the design of circuits based on the transistor-level and gate-level.
+            However, I'd prefer software rather than hardware, and I decided to devote into front-end design for web app.
+            Before coming to the US, I got my BS in EE from <a href="http://www.sau.edu.cn/">ShenYang Aerospace University</a> (SAU), Shenyang,                 Liaoning, China.
+            My graduation thesis<em> A temperature and humidity measurement based on MCU</em> can be found <a href="./EE/Projects.html">here</a>.
+            Also, I have done many <a href="./EE/Projects.html"><b>projects</b></a> both in NJIT and SAU. <a href="./EE/Projects.html">Here</a> are some of them.
+            <br/>
+            <br/>
+            I was born in a beautiful coastal city, Dalian in Liaoning Province of China.
+            That is a city surrounded by sea located in the northeast of China.
+            Since I have lived there for most of my life, I enjoyed swimming in summer, skiing in winter.
+            I like sports, especially table tennis.
+            I even got a <a href="./pictures/SilverMedal.html">Silver Medal</a> in table tennis when I was an undergraduate student in SAU.
+            Besides, I love travelling to death, and these are my
+            <a href="./pictures/pictures.html">pictures</a> while travelling around.
+            <br/>
+            </p>
+            </div>
+            
+            Related websites
+            <br/>
+            <ul type="disc">
+                <li>
+                    <a href="http://www.sau.edu.cn/">SAU</a>
+                </li>
+                <li>
+                    <a href="http://www.njit.edu/">NJIT</a>
+                </li>
+            </ul>
+        
+
+        <!-- Below are 2 ways for video inserted to this web -->
+        <p>
+
+            <video width="320" height="240" controls="controls">
+                <source src="./video/ceshi.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <br>
+
+            <embed src="http://youtu.be/dxqPEKoTid0"
+            width="480" height="400"
+            type="application/x-shockwave-flash">
+        </p>
+
+<script type="text/javascript">
+function loadXMLDoc()
+{
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET","/ajax/test1.txt",true);
+xmlhttp.send();
+}
+</script>
+
+<div id="myDiv"><h2>Let AJAX change this text</h2></div>
+<button type="button" onclick="loadXMLDoc()">Change contecnt through Ajax</button>
+
+
+        <h3>Send me an e-mail to me:</h3>
+
+        <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+            Name:
+            <br>
+            <input type="text" name="name" value="your name">
+            <br>
+            E-mail:
+            <br>
+            <input type="text" name="mail" value="your email">
+            <br>
+            Comment:
+            <br>
+            <input type="text" name="comment" value="your comment" size="50">
+            <br>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+
+        <!-- Number of visits counting -->
+        <p>
+            <script type="text/javascript">
+                if (localStorage.pagecount) {
+                    localStorage.pagecount = Number(localStorage.pagecount) + 1;
+                } else {
+                    localStorage.pagecount = 1;
+                }
+                document.write("You are the " + localStorage.pagecount + " " + "vistor");
+            </script>
+        </p>
+
+</body>
+</html>
+
